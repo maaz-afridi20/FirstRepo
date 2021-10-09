@@ -323,7 +323,27 @@ if(iris$Sepal.Length[1]>4){
 # this means that check the 1st value of the sepal.length
 # weather it is greater than 4 or not.
 
+# ----------------------------------------------
 
+# Looping Statements : 
+
+# For loop, while loop
+
+vec44 = 1:9
+for(i in vec44){
+    print(i)
+}
+
+for (i in vec44) {
+    print(i+5)
+}
+
+
+i = 1
+while (i<10) {
+    print(i*2)
+    i = i+1
+}
 
 
 

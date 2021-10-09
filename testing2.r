@@ -280,6 +280,36 @@ print(fruit_details$fruit_name)
 print(fruit_details$fruit_price)
 
 
+# ----------------------------
+
+# INBULT FUNCTIONS :
+
+# in order to view any data set we can use view()
+# in R the iris data set is inbuilt so directly we can 
+# view it
+
+
+print(View(iris))
+print(str(iris)) # (structure)this is just like shape in python
+print(head(iris))
+print(tail(iris))
+print(head(iris, 4)) # will show first 4 record
+
+print(table(iris$Species)) # will count how many species and 
+# how many number of speicies :(
+
+
+print(max(iris$Sepal.Length)) # will print max value in sepal.length
+print(min(iris$Sepal.Length))
+
+print(min(iris$Sepal.Width))
+print(max(iris$Sepal.Width))
+
+print(mean(iris$Sepal.Length))
+print(mean(iris$Sepal.Width))    # here mean is average
+
+print(range(iris$Sepal.Length)) # give range high val and low val
+
 
 
 

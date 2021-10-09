@@ -65,7 +65,7 @@ print(log1 & log2)
 print(log1 & log1)
 print(log1 | log1)
 print(log1 | log2)
-
+print("---")
 
 # ------------------------------------
 # Data Structures

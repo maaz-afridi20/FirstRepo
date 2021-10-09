@@ -310,7 +310,18 @@ print(mean(iris$Sepal.Width))    # here mean is average
 
 print(range(iris$Sepal.Length)) # give range high val and low val
 
+# -----------------------------------------------
 
+
+# Decision Making Statements :
+
+if(iris$Sepal.Length[1]>4){
+    print("Yes the value is greater")
+}else {
+    print("No the value is smaller")
+}
+# this means that check the 1st value of the sepal.length
+# weather it is greater than 4 or not.
 
 
 

@@ -345,6 +345,16 @@ while (i<10) {
     i = i+1
 }
 
+# --------------------------------
+
+# user defined function :
+
+
+add =  function(x){
+    return(x+5)
+}
+
+print(add(5))
 
 
 

@@ -60,6 +60,11 @@ ggplot(data = diamonds, aes(x=carat, y=price)) + geom_point()
 ggplot(data = diamonds, aes(x=carat, y=price, col=cut)) +
     geom_point()
 
+-------------------------------------------------
+    
+    # Box Plot :
+    
+    ggplot(data = diamonds, aes(x=clarity, y=carat, fill=clarity)) + geom_boxplot()
 
 
 

@@ -28,3 +28,27 @@ ggplot(data = diamonds, aes(x=price)) + geom_histogram(fill = 'yellow', col="bla
 
 # for adding color to the boundries of the lines of plot we can 
 # use col attribute
+
+# ------------------------------
+
+# Bar Plot :
+
+# the main diff between the histogram and the bar plot is
+# that the histogram is use to draw result for numeric continous
+# values while the bar plot is use for categorical values
+
+ggplot(data = diamonds, aes(x=cut)) + geom_bar()
+ggplot(data = diamonds, aes(x=cut)) + geom_bar(fill = 'green')
+ggplot(data = diamonds, aes(x=cut)) + geom_bar()
+ggplot(data = diamonds, aes(x=cut, fill=cut)) + geom_bar()
+
+#ggplot(data = diamonds, aes(x=cut, fill=cut)) + geom_bar()
+# it has one aes more that fill=cut it means that 
+# give us different colors among the cut of the diamonds
+
+
+
+
+
+
+

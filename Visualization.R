@@ -46,7 +46,19 @@ ggplot(data = diamonds, aes(x=cut, fill=cut)) + geom_bar()
 # it has one aes more that fill=cut it means that 
 # give us different colors among the cut of the diamonds
 
+# ----------------------------------------------------
 
+
+# Scatter Plot :
+
+# scatter plot is use to find the realation between two
+# numeric values
+
+
+ggplot(data = diamonds, aes(x=carat, y=price)) + geom_point()
+
+ggplot(data = diamonds, aes(x=carat, y=price, col=cut)) +
+    geom_point()
 
 
 
